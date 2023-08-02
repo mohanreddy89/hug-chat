@@ -69,5 +69,4 @@ if prompt := st.chat_input(disabled=not (hf_email and hf_pass)):
                     message = {"role": "assistant", "content": response}
                     st.session_state.messages.append(message)
                     
-                    # Display balloons when assistant sends a response
-                    st.balloons()
+                    
